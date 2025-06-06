@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Language Translator</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        img {
+            width: 640px;
+            height: 480px;
+            border: 2px solid #000;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>🖐️ Sign Language Translator WebApp</h2>
+    <p>Real-time gesture recognition: Start / Stop / Go</p>
+
+    <img src="{{ url_for('video') }}" alt="Webcam Feed">
+
+    <br><br>
+    <!-- Optional future buttons -->
+    <button onclick="alert('Feature Coming Soon')">Start</button>
+    <button onclick="alert('Feature Coming Soon')">Stop</button>
+</body>
+</html>
